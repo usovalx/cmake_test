@@ -5,7 +5,7 @@ add_custom_command(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     VERBATIM)
 
-add_executabl(t2
+add_executable(t2
     gen.sh
     tt.c tt.h
     main.c)
